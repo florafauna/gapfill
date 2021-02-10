@@ -10,12 +10,12 @@ procedure, i.e., each missing value is predicted separately by
 (2) predict the values based on that subset.
 
 ### Features of the package
-    * Gap-filling can be executed in parallel.
-    * Users may define Subset and Predict functions and 
-      run alternative prediction algorithms with little effort. 
-      See ?Extend for more information and examples.
-    * The visualization of space-time data is simplified 
-      through the ggplot2 based function Image.
+  * Gap-filling can be executed in parallel.
+  * Users may define `Subset` and `Predict` functions and 
+    run alternative prediction algorithms with little effort. 
+    See `?Extend` for more information and examples.
+  * The visualization of space-time data is simplified 
+    through the ggplot2 based function Image.
 
 
 
@@ -23,10 +23,10 @@ procedure, i.e., each missing value is predicted separately by
 
 The package can be installed with 
 
-R> install.packages("gapfill")
+    R> install.packages("gapfill")
 
 To get started see the example in 
 
-R> ?Gapfill
+    R> ?Gapfill
 
 

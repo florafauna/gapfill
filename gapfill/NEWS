@@ -1,3 +1,10 @@
+version 0.9.6-1
+commit e503e38060adb7618244de90ec9b4908ffa591fa
+Author: Florian Gerber <flora.fauna.gerber@gmail.com>
+Date:   Wed Feb 10 13:54:36 2021 -0700
+- migrate to github.com
+- change maintainer email address
+
 version 0.9.6
 - updated citation information.
 - bug fix: in former versions of Gapfill the error
