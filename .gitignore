@@ -1,0 +1,12 @@
+*.tar.gz
+*.Rd
+*.rd
+*.s
+*.so
+*.pdf
+*.Rout
+*.RData
+lib/*
+tar/*
+optimParallel.Rcheck/*
+.Rhistory
