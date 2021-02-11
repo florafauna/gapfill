@@ -44,7 +44,7 @@ stopifnot(identical(s, sByHand))
 }
 \references{
 F. Gerber, R. de Jong, M. E. Schaepman, G. Schaepman-Strub, and R. Furrer (2018)
-in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \url{https://doi.org/10.1109/TGRS.2017.2785240}.
+in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \doi{10.1109/TGRS.2017.2785240}.
 }
 \author{
 Florian Gerber, \email{flora.fauna.gerber@gmail.com}.

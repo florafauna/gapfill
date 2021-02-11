@@ -2,7 +2,7 @@ Package: gapfill
 Type: Package
 Title: Fill Missing Values in Satellite Data
 Version: 0.9.6-1
-Date: 2021-02-10
+Date: 2021-02-11
 Authors@R: c(person("Florian", "Gerber", role = c("aut", "cre"),
              email = "flora.fauna.gerber@gmail.com",
              comment = c(ORCID = "0000-0001-8545-5263")))

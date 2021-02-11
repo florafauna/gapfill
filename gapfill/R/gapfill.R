@@ -27,7 +27,7 @@
 #' }
 #'
 #' @references F. Gerber, R. de Jong, M. E. Schaepman, G. Schaepman-Strub, and R. Furrer (2018)
-#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \url{https://doi.org/10.1109/TGRS.2017.2785240}. 
+#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \doi{10.1109/TGRS.2017.2785240}. 
 #' @seealso \code{\link{Gapfill}}, \code{\link{Subset-Predict}}, \code{\link{Extend}}, \code{\link{Image}}.
 #' @docType package
 #' @name gapfill-package
@@ -164,7 +164,7 @@ NULL
 #' Hence, \code{data[,,1:3,]} can be used to gap-fill \code{data[,,2,]}.\cr
 #'
 #' @references F. Gerber, R. de Jong, M. E. Schaepman, G. Schaepman-Strub, and R. Furrer (2018)
-#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \url{https://doi.org/10.1109/TGRS.2017.2785240}. 
+#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \doi{10.1109/TGRS.2017.2785240}. 
 #' @seealso \code{\link{Extend}}, \code{\link{Subset-Predict}}, \code{\link{Image}}.
 #' @examples
 #' \dontrun{
@@ -398,7 +398,7 @@ Gapfill <- function (data,
 #' the \code{...} arguments of \code{\link{Gapfill}}.
 #'
 #' @references F. Gerber, R. de Jong, M. E. Schaepman, G. Schaepman-Strub, and R. Furrer (2018)
-#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \url{https://doi.org/10.1109/TGRS.2017.2785240}. 
+#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \doi{10.1109/TGRS.2017.2785240}. 
 #' 
 #' @seealso \code{\link{Gapfill}}, \code{\link{Subset-Predict}}, \code{\link{Score}}, \code{\link[stats]{lm}}.
 #' @examples
@@ -542,7 +542,7 @@ Subset <- function(data, mp, i,
 #' The interval combines the uncertainties introduced by \code{\link{Score}}
 #' and \code{\link{EstimateQuantile}}.
 #' @references F. Gerber, R. de Jong, M. E. Schaepman, G. Schaepman-Strub, and R. Furrer (2018)
-#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \url{https://doi.org/10.1109/TGRS.2017.2785240}. 
+#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \doi{10.1109/TGRS.2017.2785240}. 
 #' @note
 #' The current implementation of \code{Subset} does not take into account
 #' that locations at the boundary of \code{data} can be neighboring to each other.
@@ -874,7 +874,7 @@ IndexOneFour <- function(index, dimFour){
 #' @return Numeric vector of length \code{ncol(mat)}.
 #' @note Interfaces a C++ function. The R package Rcpp is used.  
 #' @references F. Gerber, R. de Jong, M. E. Schaepman, G. Schaepman-Strub, and R. Furrer (2018)
-#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \url{https://doi.org/10.1109/TGRS.2017.2785240}. 
+#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \doi{10.1109/TGRS.2017.2785240}. 
 #' @importFrom Rcpp evalCpp
 #' @useDynLib gapfill, .registration = TRUE
 #' @examples
@@ -920,7 +920,7 @@ Score <- function(mat) {
 #' approximate 90\% uncertainty interval is returned.
 #' @seealso \code{\link{Predict}}.
 #' @references F. Gerber, R. de Jong, M. E. Schaepman, G. Schaepman-Strub, and R. Furrer (2018)
-#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \url{https://doi.org/10.1109/TGRS.2017.2785240}. 
+#' in IEEE Transactions on Geoscience and Remote Sensing, pp. 1-13, \doi{10.1109/TGRS.2017.2785240}. 
 #' @examples
 #' a <- Subset(data = ndvi, mp = c(1, 3, 1, 2), i = 0)
 #' EstimateQuantile(a = a, mp = attr(a, "mp"), nQuant = 2)
